@@ -1,7 +1,9 @@
 
 var expect = require('chai').expect
+
 var name = 'React Quickly'
 var url = ['http://reactquickly.co', 'https://www.manning.com/books/react-quickly']
+
 describe('name and url', function() {
   it('must match the values', function(done){
     expect(name).to.be.a('string')
